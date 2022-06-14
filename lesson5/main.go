@@ -1,10 +1,14 @@
 package main
 // may unclude a lot of files
-import(
-	"fmt"
-)
+
+import ("fmt")
+
 func main() {
-	// that's logic of my program. From this point starts everything. And it will include everything. .
-	fmt.Print ("hhhhh")
-	fmt.Print("Glory to Heroes!!!")
+	var name string = "Yuki"
+	var number_of_paws int = 4
+
+	fmt.Println(name, "is my dogge. She has",number_of_paws, "paws")
+	
+	
+
 }
